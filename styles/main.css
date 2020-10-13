@@ -1,0 +1,167 @@
+:root {
+    --PaleBlue: hsl(243, 100%, 93%);
+    --GrayishBlue: hsl(229, 7%, 55%);
+    --DarkBlue: hsl(228, 56%, 26%);
+    --VeryDarkBlue: hsl(229, 57%, 11%);
+    --Gradient: linear-gradient(to right,hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+}
+
+html {
+    font-size: 62.15%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../images/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+    position: relative;
+}
+
+.top-container {
+    width: 100%;
+    max-width: 300px;
+    padding: 3rem;
+    background-color:  var(--DarkBlue);
+    border-radius: 5% 50% 5% 5%;
+    margin-bottom: 1.5rem;
+}
+
+
+.menu-container {
+    width: 70%;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+.menu-container-list {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+.menu-container-list li {
+    padding: 1.2rem;
+    background-color: var(--VeryDarkBlue);
+    margin-right: 1rem;
+    border-radius: 1rem;
+    display: flex;
+}
+
+
+.bottom-container {
+    width: 100%;
+    height: 20%;
+    max-width: 300px;
+    padding: 3rem;
+    background-color:  var(--DarkBlue);
+    border-radius: 5% 5% 5% 5%;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   align-content: center;
+}
+
+.loading {
+    width: 90%;
+    height: 1.6rem;
+    background-color: var(--VeryDarkBlue);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+
+    }    
+
+.loading-bar {
+    width: 70%;
+    height: 1.1rem;
+    background-image:var(--Gradient); 
+    border-radius: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 0.3rem;
+    
+}    
+
+.bar-dot {
+    width: 1rem;
+    height: 0.9rem;
+    margin-right: 0.3rem;
+    background-color: white;
+    border-radius: 50%;
+}    
+
+.details-container {
+    width: 90%;
+    display: flex;
+    color: var(--PaleBlue);
+    justify-content: space-between;
+}
+
+
+.storage-left-info {
+    font-size: 3rem;
+    align-self: center;
+}
+
+.storage-left {
+    width: 45%;
+    max-width: 280px;
+    height: 40%;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    left: 28%;
+    bottom: -13%;
+}
+
+
+.tittle{
+    color:var(--PaleBlue);
+    font-size: 1 rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}    
+
+.tittle-bold {
+    font-weight: bolder;
+
+}    
+
+
+
+.info-light  {
+    color: var(--GrayishBlue);
+    font-size: 1.2rem;
+    align-self: center;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    margin-left: 0.8rem;
+}
+
+.attribution {
+    color: white;
+    text-align: center;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

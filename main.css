@@ -1,0 +1,47 @@
+:root {
+    --PaleBlue: hsl(243, 100%, 93%);
+    --GrayishBlue: hsl(229, 7%, 55%);
+    --DarkBlue: hsl(228, 56%, 26%);
+    --VeryDarkBlue: hsl(229, 57%, 11%);
+    --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+}
+
+html {
+    font-size: 62.15%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("./images/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu-container-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-container-list li {
+    padding: 2rem;
+}
+
+
+.attribution {
+    color: white;
+}
+.attribution a {
+    text-decoration: none;
+    color: white;
+}
